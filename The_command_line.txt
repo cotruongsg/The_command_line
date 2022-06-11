@@ -1,0 +1,28 @@
+PART I
+
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -rf second
+
+PART II
+1. man command help you to find  more information about command you want to use . Example : cp , mv , ls , so on...
+	Ctrl + D to the advance of page 
+	Ctrl + B to go back on page
+	Ctrl + U to go back a half of page
+	
+2. The `-l` flag lists files in a list format with more detail and the `-a` lists all files and folders including hidden ones
+3. option + left/right
+4. Ctrl + e
+5. Ctrl + a
+6. Ctrl + delete
+7. The terminal is a program is just an interface to the shell. 
+   The shell is what actually handles commands and so forth; the terminal program just gives it a way to interact with the environment.
+8. An absolute path is a path that starts from the root route and gives the complete location for a file or folder
+9. A relative path is a path that starts at the current location and not the root route
+10. A flag adds additional functionality to an existing command, we have seen -a and -l for the ls command and -r for the cp and rm commands
+11. r will remove folders and recursively go through each folder and file and f will force removal
